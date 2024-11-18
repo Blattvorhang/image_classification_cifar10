@@ -26,7 +26,17 @@ CIFAR-10 数据集中，10 个类别及其对应的序号如下：
 
 本次抽到的 6 个类别为：`(0, 1, 2, 3, 4, 6)`
 
+![](./imgs/dataset.png)
+
 ## 评估
 请使用 Accuracy、Recall、Precision、F1-score、AUROC 进行定量评估，并绘制混淆矩阵进行可视化。请给出训练过程中的损失函数下降曲线。
 
 请将 6 个类别的图像进行可视化并标好类别名称，**要求每个类别都有**。
+
+## 网络
+![CNN](./imgs/CNN.png)
+
+## 结果
+![Loss](./imgs/training_loss_curve.png)
+
+![Confusion Matrix](./imgs/confusion_matrix.png)
